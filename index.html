@@ -11,28 +11,6 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
     <link rel ="stylesheet" href = "CSS/home_styles.css">
   
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"><img src="myimages/logo4.PNG" alt="" height ="50px" width = "50px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMain" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navBarMain">
-        <ul class="navbar-nav mr-auto">
-         
-              <li class ="nav-item"><a href="#about" class= "nav-link"><h4>Search</h4></a></li>
-              <li class ="nav-item"><a href="#experience" class= "nav-link"><h4>Rooms</h4></a></li>
-              <li class ="nav-item"><a href="#education" class= "nav-link"><h4>Email</h4></a></li>
-        </ul>
-        
-        <div class="my-lg-0">
-          <ul class="navbar-nav mr-auto">
-              <li class ="nav-item" ><a href="#contact" class= "nav-link" ><h4 style="float:right;">Log Out</h4></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  
   
   </head>
 
@@ -62,10 +40,25 @@
             <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
         </p>
         </main>-->
-    
+        
+        <script>
+          var video = document.getElementById("myVideo");
+          var btn = document.getElementById("myBtn");
+          
+          function myFunction() {
+            if (video.paused) {
+              video.play();
+              btn.innerHTML = "Pause";
+            } else {
+              video.pause();
+              btn.innerHTML = "Play";
+            }
+          }
+          </script>
+          
         <footer class="mastfoot mt-auto">
         <div class="inner">
-            <p>Cover </p>
+            <p> </p>
         </div>
         </footer>
 
