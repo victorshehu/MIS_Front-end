@@ -1,0 +1,20 @@
+<style>
+body{
+    background-color: aliceblue;
+}
+.inputpos{
+    padding-top: 25%;
+    
+}
+.inputsize{
+    height: 15%;
+    width: 100%;
+    font-size: larger;
+}
+
+.searchbutton{
+    float: right;
+}
+
+
+</style>
